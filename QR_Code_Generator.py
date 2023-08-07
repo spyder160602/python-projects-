@@ -1,4 +1,5 @@
 import qrcode
-data = "Harshil-Jani Search me on Github ! "
+
+data = "'spyder160602' Search me on Github !"
 img = qrcode.make(data)
-img.save("/home/harshil/Desktop/answer.png") #put in the path where you want QR Code stored.
+img.save("C:\\Users\\Moksh\\Desktop\\qr.png")  # Corrected path with double backslashes
